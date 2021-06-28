@@ -1,12 +1,25 @@
 body{
     font-family: 'Raleway',sans-serif;
+    margin:0px;
 }
 
-form img{
-    height: 50px;
-    width: 50px;
-    border:1px solid #F2F2F2;
-    border-radius: 100%;
+/* bleu #0065FC */
+/* gris #F2F2F2 */
+
+/*header*/
+
+.nav{
+    display: flex;
+}
+
+.nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+.liennoir{
+    text-decoration: none;
+    color: black;
 }
 
 .icone_filtre img{
@@ -21,4 +34,89 @@ form img{
     width: 50px;
     border:1px solid #F2F2F2;
     border-radius: 100%;
+}
+
+.hotel{
+    width: 100px;
+}
+
+.inscrire{
+    text-decoration: none;
+    font-weight: bold;
+    color: #0065FC;
+}
+
+h2{
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+form{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.champ{
+    font-family: Raleway,"sans-serif";
+    font-weight: bolder;
+    border-left: none;
+    border-right: none;
+    border:1px solid #F2F2F2;
+}
+
+.map{
+    background-color: #F2F2F2;
+    height: 18px;
+    width: 18px;
+    padding: 10px;
+    border:1px solid #F2F2F2;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+/*Taille d'écran pc */
+
+@media screen and (min-width:1024px){
+    body{
+        width: 90%;
+        margin: auto;
+    }
+    .nav{
+        justify-content: space-between;
+    }
+    .nav ul{
+        margin-top: 0px;
+        width: 500px;
+        justify-content: space-around;
+    } 
+
+    .nav li{
+        padding-top: 25px;
+        width: 140px;
+        display: flex;
+    }
+
+    .nav li:hover{
+        padding-top: 22px;
+        border-top: 3px solid #0065FC;
+    }
+
+    .nav li a{
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .nav li a:hover{
+        color: #0065FC;
+    }
+
+    .btn{
+        background-color:#0065FC;
+        color: white;
+        font-family: Raleway,"sans-serif";
+        border-bottom-right-radius: 10px;
+        border-top-right-radius: 10px;
+        border:none;
+    }
+
 }

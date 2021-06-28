@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,20 +9,23 @@
     <link rel="stylesheet" href="./font/style.css">
     <title>Reservia</title>
 </head>
+
 <body>
     <header>
-        <img src="./images/logo/Reservia.svg" alt="">
-        <ul>
-            <li><a href="#herbergement">Hébergements</a></li>
-            <li><a href="#activite">Activités</a></li>
-            <li><a href="#">S'inscrire</a></li>
-        </ul>
-        <h2>Trouvez votre héberghement pour des vacances de rêve</h2>
+        <div class="nav">
+            <img src="./images/logo/Reservia.svg" alt="">
+            <ul>
+                <li><a class="liennoir" href="#herbergement">Hébergements</a></li>
+                <li><a class="liennoir" href="#activite">Activités</a></li>
+                <li><a class="inscrire" href="#">S'inscrire</a></li>
+            </ul>
+        </div>
+        <h2><strong>Trouvez votre héberghement pour des vacances de rêve</strong></h2>
         <p>En plein centre ville ou en pleine nature</p>
         <form action="#">
-            <img src="./images/icône/map-marker-alt-solid.svg" alt="">
-            <input type="text" value="Marseille,France">
-            <button type="submit">Rechercher</button>
+            <img class="map" src="./images/icône/map-marker-alt-solid.svg" alt="">
+            <input class="champ" type="text" value="Marseille,France">
+            <button class="btn" type="submit">Rechercher</button>
         </form>
         <div class="filtre">
             <h3>Filtres</h3>
@@ -31,7 +35,7 @@
             </div>
             <div class="icone_filtre">
                 <img src="./images/icône/male-solid.svg" alt="">
-                <h3>Familial</h3> 
+                <h3>Familial</h3>
             </div>
             <div class="icone_filtre">
                 <img src="./images/icône/heart-solid.svg" alt="">
@@ -144,4 +148,5 @@
         </div>
     </footer>
 </body>
+
 </html>
