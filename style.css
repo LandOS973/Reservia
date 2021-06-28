@@ -123,13 +123,14 @@ form{
 }
 
 .hotel{
-    width: 280px;
-    height: 220px;
+    width: 250px;
+    height: 200px;
     overflow: hidden;
     background-color: white;
     position: relative;
     border:5px solid white;
     border-radius: 30px;
+    box-shadow: 2px 2px 2px rgb(226, 226, 226);
 }
 
 .hotel img{
@@ -150,6 +151,12 @@ form{
 .txt p:first-child{
     font-weight: bolder;
     line-height: 1px;
+}
+
+.bg a{
+    text-decoration: none;
+    color:black;
+    font-weight: bolder;
 }
 
 /*Taille d'écran pc */
@@ -215,16 +222,29 @@ form{
     .bg{
         background-color: var(--gris);
         border-radius: 25px;
-        width: 60%;
+        width: 900px;
+        height: 620px;
+    }
+
+    .bg h2,.bg a{
+        margin: 20px;
+        padding-left: 20px;
+        padding-top: 40px;
+    }
+
+    .bg a{
+        padding-bottom: 50px;
     }
 
     .marseille{
-        background-color: var(--gris);
+        width: 850px;
         flex-wrap: wrap;
         justify-content: space-around;
+        margin-left: auto;
+        margin-right: auto;
     }
     .hotel{
-        margin:20px;
+        margin-bottom:30px;
     }
 
 }
