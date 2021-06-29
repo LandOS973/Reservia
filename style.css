@@ -39,7 +39,7 @@ h2{
     font-size: 20px;
 }
 
-/*forù*/
+/*form*/
 
 form{
     display: flex;
@@ -118,19 +118,24 @@ form{
 }
 
 /*herbegement*/
+
+#hebergement{
+    display: flex;
+}
+
 .marseille{
     display: flex;
 }
 
 .hotel{
-    width: 250px;
-    height: 200px;
+    width: 230px;
+    height: 190px;
     overflow: hidden;
     background-color: white;
     position: relative;
     border:5px solid white;
-    border-radius: 30px;
-    box-shadow: 2px 2px 2px rgb(226, 226, 226);
+    border-radius: 20px;
+    box-shadow: 3px 3px 3px rgb(226, 226, 226);
 }
 
 .hotel img{
@@ -138,19 +143,19 @@ form{
     top: 35%;
     transform: translate(0%, -50%);
     width: 100%;
-    height: auto;
 }
 
-.txt{
+.hotel .txt{
+    line-height: 5px;
     position: absolute;
     background-color: white;
     bottom:0px;
+    padding-left: 10px;
     width: 100%;
 }
 
 .txt p:first-child{
     font-weight: bolder;
-    line-height: 1px;
 }
 
 .bg a{
@@ -159,11 +164,50 @@ form{
     font-weight: bolder;
 }
 
+.star{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.star img{
+    position: relative;
+    height: 15px;
+    width: 15px;
+}
+
+/*les plus populaires*/
+
+.hotelpop{
+    width: 300px;
+    height: 150px;
+    overflow: hidden;
+    background-color: white;
+    position: relative;
+    border:5px solid white;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px rgb(226, 226, 226);
+}
+
+.hotelpop img{
+    position: absolute;
+    height: 100%;
+}
+
+.hotelpop .txt{
+    padding-left: 20px;
+    flex-wrap: wrap;
+    width: 170px;
+    position: absolute;
+    background-color: white;
+    right:0px;
+    height: 100%;
+}
+
 /*Taille d'écran pc */
 
-@media screen and (min-width:1024px){
+@media screen and (min-width:1200px){
     body{
-        width: 90%;
+        width: 1200px;
         margin: auto;
     }
     /*Header*/
@@ -217,12 +261,16 @@ form{
         margin-left: 20px;
     }
 
+    .dispo{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
     /*hebergement*/
 
     .bg{
         background-color: var(--gris);
         border-radius: 25px;
-        width: 900px;
+        width: 850px;
         height: 620px;
     }
 
@@ -237,7 +285,7 @@ form{
     }
 
     .marseille{
-        width: 850px;
+        width: 800px;
         flex-wrap: wrap;
         justify-content: space-around;
         margin-left: auto;
@@ -245,6 +293,22 @@ form{
     }
     .hotel{
         margin-bottom:30px;
+    }
+
+    /*les plus populaires*/
+
+    #hebergement{
+        justify-content: space-between;
+    }
+
+    .populaire{
+        border:1px solid black;
+    }
+
+    .bg2{
+        background-color: var(--gris);
+        border-radius: 25px;
+        height: 620px;
     }
 
 }
