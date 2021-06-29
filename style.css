@@ -175,7 +175,6 @@ form{
     width: 300px;
     height: 120px;
     overflow: hidden;
-    background-color: white;
     position: relative;
     border:5px solid white;
     border-radius: 20px;
@@ -212,10 +211,43 @@ form{
     width: 15px;
 }
 
+/*Activité à Marseille */
+
+#activite{
+    display: flex;
+}
+
+/*Footer*/
+
+footer{
+    background-color: var(--gris);
+}
+
+footer .bloc_page{
+    display: flex;
+}
+
+.bp{
+    display: flex;
+    flex-direction: column;
+}
+
+.bp a{
+    text-decoration: none;
+    color: black;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.bp h3{
+    margin-bottom: 10px;
+    padding-top: 20px;
+}
+
 /*Taille d'écran pc */
 
 @media screen and (min-width:1200px){
-    body{
+    .bloc_page{
         width: 1200px;
         margin: auto;
     }
@@ -328,4 +360,86 @@ form{
         margin-bottom: 30px;
     }
 
+    /*Activité a Marseille*/
+
+    #activite{
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .flex{
+        display: flex;
+        flex-direction: column;   
+        flex-wrap: wrap;
+        align-content: space-between;
+        height: 450px;
+    }
+
+    #activite .flex div{
+        width: 280px;
+        overflow: hidden;
+        position: relative;
+        border-radius: 20px;
+        box-shadow: 2px 2px 2px rgb(240, 240, 240);   
+        margin-bottom: 40px;
+    }
+
+    .gros{
+        height: 400px;
+    }
+
+    .gros img{
+        position: absolute;
+        height: 400px;
+        left:-160px;  
+    }
+
+    .fort{
+        height: 210px;
+    }
+
+    .fort img{
+        width: 100%;
+        position: absolute;
+        top:-105px;
+    }
+
+    .petit{
+        height: 150px;
+    }
+
+    .petit img{
+        width: 100%;
+        position: absolute;
+        top:-30px;
+    }
+
+    .moyen{
+        height: 180px;
+    }
+
+    .moyen img{
+        width: 100%;
+    }
+
+    #activite div p{
+        position: absolute;
+        font-weight: bolder;
+        background-color: white;
+        bottom:0px;
+        width: 100%;
+        padding: 15px;
+        margin: 0px;
+    }
+
+    /*footer*/
+    footer{
+        height: 200px;
+    }
+    .bp{
+        margin-right: 150px;
+        margin-left: 30px;
+    }
+    
 }
