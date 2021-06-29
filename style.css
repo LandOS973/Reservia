@@ -128,19 +128,19 @@ form{
 }
 
 .hotel{
-    width: 230px;
-    height: 190px;
+    width: 220px;
+    height: 180px;
     overflow: hidden;
     background-color: white;
     position: relative;
     border:5px solid white;
     border-radius: 20px;
-    box-shadow: 3px 3px 3px rgb(226, 226, 226);
+    box-shadow: 4px 4px 4px rgb(226, 226, 226);
 }
 
 .hotel img{
     position: absolute;
-    top: 35%;
+    top: 30%;
     transform: translate(0%, -50%);
     width: 100%;
 }
@@ -169,38 +169,47 @@ form{
     justify-content: flex-start;
 }
 
-.star img{
-    position: relative;
-    height: 15px;
-    width: 15px;
-}
-
 /*les plus populaires*/
 
 .hotelpop{
     width: 300px;
-    height: 150px;
+    height: 120px;
     overflow: hidden;
     background-color: white;
     position: relative;
     border:5px solid white;
     border-radius: 20px;
-    box-shadow: 2px 2px 2px rgb(226, 226, 226);
+    box-shadow: 4px 4px 4px rgb(226, 226, 226);
 }
 
 .hotelpop img{
     position: absolute;
-    height: 100%;
+}
+
+.top,.mid{
+    height: 130px;
+    left: -32px;
+}
+
+.bot{
+    height: 180px;
+    top:-30px;
 }
 
 .hotelpop .txt{
     padding-left: 20px;
     flex-wrap: wrap;
-    width: 170px;
+    width: 160px;
     position: absolute;
     background-color: white;
     right:0px;
     height: 100%;
+}
+
+.star img{
+    position: relative;
+    height: 15px;
+    width: 15px;
 }
 
 /*Taille d'écran pc */
@@ -270,28 +279,25 @@ form{
     .bg{
         background-color: var(--gris);
         border-radius: 25px;
-        width: 850px;
-        height: 620px;
+        width: 800px;
+        height: 580px;
     }
 
     .bg h2,.bg a{
         margin: 20px;
         padding-left: 20px;
-        padding-top: 40px;
-    }
-
-    .bg a{
-        padding-bottom: 50px;
+        padding-top: 20px;
     }
 
     .marseille{
-        width: 800px;
+        width: 750px;
         flex-wrap: wrap;
         justify-content: space-around;
         margin-left: auto;
         margin-right: auto;
     }
     .hotel{
+        margin-right: 0px;
         margin-bottom:30px;
     }
 
@@ -301,14 +307,25 @@ form{
         justify-content: space-between;
     }
 
-    .populaire{
-        border:1px solid black;
-    }
-
     .bg2{
         background-color: var(--gris);
         border-radius: 25px;
-        height: 620px;
+        height: 580px;
+        width: 370px;
+    }
+
+    .populaire{
+        width: 310px;
+        margin:auto
+    }
+
+    .populaire h2{
+        margin-top: 40px;
+        margin-bottom: 30px;
+    }
+
+    .hotelpop{
+        margin-bottom: 30px;
     }
 
 }
