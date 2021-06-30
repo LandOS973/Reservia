@@ -1,0 +1,71 @@
+/*Header*/
+
+.bloc_page{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header h2{
+    line-height: 1px;
+}
+
+.nav{
+    justify-content: space-between;
+}
+.nav ul{
+    margin-top: 0px;
+    width: 500px;
+    justify-content: space-around;
+} 
+
+.nav li{
+    padding-top: 25px;
+    width: 140px;
+    display: flex;
+}
+
+.nav li:hover{
+    padding-top: 22px;
+    border-top: 3px solid var(--bleu);
+}
+
+.nav li a{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.nav li a:hover{
+    color: var(--bleu);
+}
+
+.btn{
+    font-size: 15px;
+    font-weight: 600;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color:var(--bleu);
+    color: white;
+    font-family: Raleway,"sans-serif";
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    border:none;
+}
+/*partie filtre*/
+.filtre{
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+.filtre h3{
+    margin-right: 15px;
+    
+}
+
+.icone_filtre{
+    margin-right: 15px;
+}
+
+.dispo{
+    margin-bottom: 20px;
+}
