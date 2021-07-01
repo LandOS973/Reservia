@@ -48,20 +48,12 @@ header h2{
     border-top-right-radius: 10px;
     border:none;
 }
-/*partie filtre*/
-.filtre{
-    margin-top: 20px;
-}
 
-.icone_filtre{
-    margin-left: 20px;
-}
-
-.dispo{
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
 /*hebergement*/
+
+#hebergement{
+    justify-content: space-between;
+}
 
 .bg{
     background-color: var(--gris);
@@ -86,13 +78,15 @@ header h2{
 .hotel{
     margin-right: 0px;
     margin-bottom:30px;
+    margin-left: 20px;
+}
+
+.pastablette{
+    display: flex;
+    justify-content: space-between;
 }
 
 /*les plus populaires*/
-
-#hebergement{
-    justify-content: space-between;
-}
 
 .bg2{
     background-color: var(--gris);

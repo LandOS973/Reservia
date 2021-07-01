@@ -72,15 +72,19 @@ form{
 .filtre{
     display: flex; 
     font-size: 13px;
+    margin-top: 20px;
+    flex-wrap: wrap;
 }
 
 .filtre h3{
-    padding-top: 10px;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 .icone_filtre{
     display: flex;
-    position: relative;
+    height: 45px;
+    margin-left: 20px;
 }
 
 .icone_filtre h3{
@@ -102,10 +106,14 @@ form{
     border-radius: 100%;
 }
 
+
 /* plus de 500 logements dispo... */
 
 .dispo{
-    display: flex;
+    display: flex;  
+    margin-top: 15px;
+    margin-bottom: 15px;
+    
 }
 
 .dispo img{
@@ -123,6 +131,7 @@ form{
 
 #hebergement{
     display: flex;
+    flex-wrap: wrap;
 }
 
 .marseille{

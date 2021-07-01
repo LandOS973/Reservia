@@ -51,21 +51,121 @@ header h2{
     border-top-right-radius: 10px;
     border:none;
 }
-/*partie filtre*/
-.filtre{
-    margin-top: 20px;
+
+/*hebergement */
+
+.bg{
+    background-color: var(--gris);
+    border-radius: 25px;
+    height: 580px;
+}
+
+.bg h2,.bg a{
+    margin: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.hotel{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom:30px;
+}
+
+.marseille{
+    height: 450px;
     flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.filtre h3{
-    margin-right: 15px;
+.populaire h2{
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.hotelpop{
+    margin-bottom: 30px;
+}
+
+/*GRANDES TABLETTES */
+
+@media screen and (min-width:1085px) {
+    /*hebergement*/
+    #hebergement{
+        justify-content: space-around;
+    }
     
+    .bg{
+        width: 550px;
+    }
+    
+    .marseille{
+        width: 500px;
+    }
+    
+    .pastablette{
+        display: none;
+    }
+    /*les plus populaires*/
+    
+    .bg2{
+        background-color: var(--gris);
+        border-radius: 25px;
+        height: 580px;
+        width: 370px;
+    }
+    
+    .populaire{
+        width: 310px;
+        margin:auto
+    }
 }
 
-.icone_filtre{
-    margin-right: 15px;
+/*PETITE TABLETTE ET GRANDS SMARTPHONES */
+
+@media screen and (max-width:1084px) {
+    #hebergement{
+        flex-direction: column;
+    }
+
+    .bg{
+        margin-left: auto;
+        margin-right: auto;
+        width: 780px;
+    }
+    
+    .marseille{
+        width: 750px;
+    }
+
+    .pastablette{
+        margin:0px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .bg2{
+        height: 580px;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        justify-content: space-around;
+    }
 }
 
-.dispo{
-    margin-bottom: 20px;
+@media screen and (max-width:845px){
+
+    .bg{
+        width: 100%;
+    }
+    
+    .marseille{
+        width: 500px;
+    }
+    
+    .pastablette{
+        display: none;
+    }
+    
 }
