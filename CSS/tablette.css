@@ -9,28 +9,29 @@
 .nav{
     justify-content: space-between;
 }
-.nav ul{
+.lien{
     margin-top: 0px;
+    width: 500px;
     justify-content: space-around;
 } 
 
-.nav li{
+.lien a{
     padding-top: 25px;
     width: 140px;
     display: flex;
 }
 
-.nav li:hover{
+.lien a:hover{
     padding-top: 22px;
     border-top: 3px solid var(--bleu);
 }
 
-.nav li a{
+.lien a{
+    display: block;
     text-align: center;
-    margin-left: auto;
-    margin-right: auto;
+    width: 100%;
 }
-.nav li a:hover{
+.lien a:hover{
     color: var(--bleu);
 }
 
@@ -46,6 +47,11 @@
     border-top-right-radius: 10px;
     border:none;
 }
+
+.btn-search{
+    display: none;
+}
+
 
 /*hebergement */
 
@@ -138,7 +144,7 @@ footer .bloc_page{
 /*GRANDES TABLETTES */
 
 @media screen and (min-width:1085px) {
-    .nav ul{
+    .lien{
         width: 500px;
     }
     /*hebergement*/
@@ -175,7 +181,7 @@ footer .bloc_page{
 /*PETITE TABLETTE ET GRANDS SMARTPHONES */
 
 @media screen and (max-width:1084px) {
-    .nav ul{
+    .lien{
         width: 500px;
     }
 
@@ -209,7 +215,7 @@ footer .bloc_page{
 }
 
 @media screen and (max-width:845px){
-    .nav ul{
+    .lien{
         width: 375px;
     }
     .bg{

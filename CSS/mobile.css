@@ -1,0 +1,65 @@
+/* header */
+
+.nav{
+    position: relative;
+    height: 135px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.nav img{
+    height: 50px;
+    margin: 20px 40% 0px 20px;
+}
+
+.inscrire{
+    position: absolute;
+    top:40px;
+    right: 20px;
+}
+
+.lien{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.lien a:nth-child(-n+2){
+    display: block;
+    text-align: center;
+    width: 100%;
+    border-bottom:4px solid var(--gris);
+}
+
+.lien a:nth-child(-n+2):hover{
+    color: var(--bleu);
+    border-bottom:4px solid var(--bleu);
+}
+
+/*Trouver un hebergement */
+
+.recherche{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn{
+    display: none;
+}
+
+.btn-search{
+    position: absolute;
+    left:270px;
+    height: 18px;
+    width: 18px;
+    padding: 13px;
+    border-radius: 15px;
+    border:none;
+    background-color:var(--bleu);
+}
+
+.filtre h3:first-child{
+    width: 100%;
+    margin-bottom: 10px;
+}

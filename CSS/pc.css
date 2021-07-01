@@ -7,29 +7,29 @@
 .nav{
     justify-content: space-between;
 }
-.nav ul{
+.lien{
     margin-top: 0px;
     width: 500px;
     justify-content: space-around;
 } 
 
-.nav li{
+.lien a{
     padding-top: 25px;
     width: 140px;
     display: flex;
 }
 
-.nav li:hover{
+.lien a:hover{
     padding-top: 22px;
     border-top: 3px solid var(--bleu);
 }
 
-.nav li a{
+.lien a{
+    display: block;
     text-align: center;
-    margin-left: auto;
-    margin-right: auto;
+    width: 100%;
 }
-.nav li a:hover{
+.lien a:hover{
     color: var(--bleu);
 }
 
@@ -44,6 +44,10 @@
     border-bottom-right-radius: 10px;
     border-top-right-radius: 10px;
     border:none;
+}
+
+.btn-search{
+    display: none;
 }
 
 /*hebergement*/
