@@ -24,10 +24,6 @@ body{
     color: black;
 }
 
-.hotel{
-    width: 100px;
-}
-
 .inscrire{
     text-decoration: none;
     font-weight: bolder;
@@ -231,12 +227,6 @@ form{
     position: relative;
     height: 15px;
     width: 15px;
-}
-
-/*Activité à Marseille */
-
-#activite{
-    display: flex;
 }
 
 /*Footer*/

@@ -3,9 +3,6 @@
     margin: auto;
 }
 /*Header*/
-header h2{
-    line-height: 1px;
-}
 
 .nav{
     justify-content: space-between;

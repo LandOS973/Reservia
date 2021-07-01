@@ -6,16 +6,11 @@
     margin-right: auto;
 }
 
-header h2{
-    line-height: 1px;
-}
-
 .nav{
     justify-content: space-between;
 }
 .nav ul{
     margin-top: 0px;
-    width: 500px;
     justify-content: space-around;
 } 
 
@@ -88,9 +83,64 @@ header h2{
     margin-bottom: 30px;
 }
 
+/*Activite */
+
+#activite{
+    margin-top: 40px;
+}
+
+#activite h2{
+    text-align: center;
+}
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#activite .flex div{
+    width: 280px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px rgb(240, 240, 240);   
+    margin-bottom: 40px;
+    height: 180px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#activite .flex div img{
+    width: 100%;
+    position: absolute;
+}
+
+#activite div p{
+    position: absolute;
+    font-weight: bolder;
+    background-color: white;
+    bottom:0px;
+    width: 100%;
+    padding: 15px;
+    margin: 0px;
+}
+
+.fort img{
+    top:-105px;
+}
+
+/*footer*/
+footer .bloc_page{
+    justify-content: space-around;
+}
+
 /*GRANDES TABLETTES */
 
 @media screen and (min-width:1085px) {
+    .nav ul{
+        width: 500px;
+    }
     /*hebergement*/
     #hebergement{
         justify-content: space-around;
@@ -125,6 +175,10 @@ header h2{
 /*PETITE TABLETTE ET GRANDS SMARTPHONES */
 
 @media screen and (max-width:1084px) {
+    .nav ul{
+        width: 500px;
+    }
+
     #hebergement{
         flex-direction: column;
     }
@@ -155,7 +209,9 @@ header h2{
 }
 
 @media screen and (max-width:845px){
-
+    .nav ul{
+        width: 375px;
+    }
     .bg{
         width: 100%;
     }
