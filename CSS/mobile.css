@@ -63,3 +63,88 @@
     width: 100%;
     margin-bottom: 10px;
 }
+
+/* hebergement a marseille */
+
+#hebergement{
+    flex-direction: column-reverse;
+}
+
+.bg2{
+    background-color: var(--gris);
+    height: 520px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.hotelpop{
+    margin-bottom: 10px;
+}
+
+.populaire{
+    width: 320px;
+    height: 500px;
+    margin:auto;
+}
+
+.populaire h2{
+    margin-top: 30px;
+}
+
+.trend img{
+    margin-top: 30px;
+}
+
+.marseille{
+    flex-direction: column;
+}
+
+.bg{
+    width: 315px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bg a{
+    display: block;
+    margin-top:15px;
+}
+
+.hotel{
+    width: 300px;
+    margin-bottom: 10px;
+}
+
+/* Activité */
+
+#activite .flex div{
+    width: 300px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px rgb(240, 240, 240);   
+    margin-bottom: 40px;
+    height: 180px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#activite .flex div img{
+    width: 100%;
+    position: absolute;
+}
+
+#activite div p{
+    position: absolute;
+    font-weight: bolder;
+    background-color: white;
+    bottom:0px;
+    width: 100%;
+    padding: 15px;
+    margin: 0px;
+}
+
+.fort img{
+    top:-135px;
+}
