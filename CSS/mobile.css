@@ -118,16 +118,21 @@
 
 /* Activité */
 
+#activite{
+    width: 315px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+}
+
 #activite .flex div{
-    width: 300px;
+    width: 305px;
     overflow: hidden;
     position: relative;
     border-radius: 20px;
     box-shadow: 5px 5px 5px rgb(240, 240, 240);   
     margin-bottom: 40px;
     height: 180px;
-    margin-left: 10px;
-    margin-right: 10px;
 }
 
 #activite .flex div img{
@@ -148,3 +153,17 @@
 .fort img{
     top:-135px;
 }
+
+/* Footer */
+
+footer .bloc_page{
+    flex-direction: column;
+    padding-bottom: 30px;
+}
+
+.bp{
+    width: 315px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
