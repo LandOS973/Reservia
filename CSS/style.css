@@ -62,6 +62,25 @@ form{
     border-bottom-left-radius: 10px;
 }
 
+.btn{
+    font-size: 15px;
+    font-weight: 600;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color:var(--bleu);
+    color: white;
+    font-family: Raleway,"sans-serif";
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    border:none;
+}
+
+.btn:hover{
+    background-color: rgb(18, 18, 185);
+    transition: 0.2s;
+}
+
+
 /* Partie filtre */
 
 .filtre{
@@ -89,6 +108,10 @@ form{
     border-bottom-right-radius: 30px;
 }
 
+.icone_filtre h3:hover{
+    background-color: #DEEBFF;
+}
+
 .icone_filtre img{
     z-index: 1;
     margin-top: auto;
@@ -97,7 +120,7 @@ form{
     height: 18px;
     width: 18px;
     padding: 10px;
-    background-color: #DEEBFF;
+    background-color: #ecf2fc;
     border-radius: 50%;
 }
 
@@ -133,8 +156,8 @@ form{
 }
 
 .hotel{
-    width: 220px;
-    height: 180px;
+    width: 219px;
+    height: 179px;
     overflow: hidden;
     background-color: white;
     position: relative;
@@ -143,17 +166,21 @@ form{
     box-shadow: 4px 4px 4px rgb(226, 226, 226);
 }
 
+
 .hotel img{
+    object-fit: cover;
     position: absolute;
     top: 30%;
     transform: translate(0%, -50%);
     width: 100%;
+    left:0px;
 }
 
 .hotel .txt{
     line-height: 5px;
     position: absolute;
     background-color: white;
+    color: black;
     bottom:0px;
     padding-left: 10px;
     width: 100%;
@@ -163,7 +190,7 @@ form{
     font-weight: bolder;
 }
 
-.bg a{
+.afficherplus{
     text-decoration: none;
     color:black;
     font-weight: bolder;
@@ -188,8 +215,8 @@ form{
 
 .hotelpop{
     font-size: 14px;
-    width: 310px;
-    height: 120px;
+    width: 309px;
+    height: 119px;
     overflow: hidden;
     position: relative;
     border:4px solid white;
@@ -212,6 +239,7 @@ form{
 }
 
 .hotelpop .txt{
+    color: black;
     padding-left: 20px;
     width: 180px;
     position: absolute;
@@ -228,6 +256,12 @@ form{
     position: relative;
     height: 15px;
     width: 15px;
+}
+
+/*Activite*/
+
+#activite p{
+    color: black;
 }
 
 /*Footer*/

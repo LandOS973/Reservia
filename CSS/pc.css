@@ -33,18 +33,6 @@
     color: var(--bleu);
 }
 
-.btn{
-    font-size: 15px;
-    font-weight: 600;
-    padding-left: 20px;
-    padding-right: 20px;
-    background-color:var(--bleu);
-    color: white;
-    font-family: Raleway,"sans-serif";
-    border-bottom-right-radius: 10px;
-    border-top-right-radius: 10px;
-    border:none;
-}
 
 .btn-search{
     display: none;
@@ -82,6 +70,13 @@
     margin-left: 20px;
 }
 
+.hotel:hover{
+    width: 222px;
+    height: 182px;
+    transition: 0.2s;
+    top:-1px;
+}
+
 .pastablette{
     display: flex;
     justify-content: space-between;
@@ -109,6 +104,13 @@
 .hotelpop{
     margin-bottom: 30px;
 }
+.hotelpop:hover{
+    width: 312px;
+    height: 122px;
+    top:-1px;
+    transition: 0.2s;
+}
+
 
 .trend img{
     margin-top: 40px;
@@ -143,6 +145,12 @@
     height: 400px;
 }
 
+.gros:hover{
+    height: 403px;
+    top:-2px;
+    transition: 0.2s;
+}
+
 .gros img{
     position: absolute;
     height: 400px;
@@ -151,6 +159,10 @@
 
 .fort{
     height: 210px;
+}
+
+.fort:hover{
+    height: 211px;
 }
 
 .fort img{
@@ -163,6 +175,10 @@
     height: 150px;
 }
 
+.petit:hover{
+    height: 151px;
+}
+
 .petit img{
     width: 100%;
     position: absolute;
@@ -171,6 +187,10 @@
 
 .moyen{
     height: 180px;
+}
+
+.moyen:hover{
+    height: 181px;
 }
 
 .moyen img{

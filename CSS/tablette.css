@@ -35,18 +35,6 @@
     color: var(--bleu);
 }
 
-.btn{
-    font-size: 15px;
-    font-weight: 600;
-    padding-left: 20px;
-    padding-right: 20px;
-    background-color:var(--bleu);
-    color: white;
-    font-family: Raleway,"sans-serif";
-    border-bottom-right-radius: 10px;
-    border-top-right-radius: 10px;
-    border:none;
-}
 
 .btn-search{
     display: none;
@@ -92,6 +80,15 @@
 .hotelpop{
     margin-bottom: 30px;
 }
+
+.hotelpop:hover{
+    width: 312px;
+    height: 122px;
+    top:-1px;
+    transition: 0.2s;
+}
+
+
 
 /*Activite */
 
