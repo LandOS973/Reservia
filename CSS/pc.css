@@ -22,6 +22,7 @@
 .lien a:hover{
     padding-top: 22px;
     border-top: 3px solid var(--bleu);
+    transition: 0.2s;
 }
 
 .lien a{
@@ -31,6 +32,7 @@
 }
 .lien a:hover{
     color: var(--bleu);
+    transition: 0.2s;
 }
 
 
@@ -70,16 +72,6 @@
     margin-left: 20px;
 }
 
-.hotel:hover{
-    width: 227px;
-    height: 186px;
-    margin-bottom:23px;
-    margin-left: 13px;
-    transition: 0.8s;
-    top:-3px;
-    right: -4px;
-}
-
 .pastablette{
     display: flex;
     justify-content: space-between;
@@ -107,15 +99,6 @@
 .hotelpop{
     margin-bottom: 30px;
 }
-.hotelpop:hover{
-    width: 316px;
-    height: 124px;
-    margin-bottom: 25px;
-    top:-3px;
-    left:-2px;
-    transition: 0.6s;
-}
-
 
 .trend img{
     margin-top: 40px;

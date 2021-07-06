@@ -111,13 +111,13 @@ form{
 
 .icone_filtre:hover h3{
     background-color: #DEEBFF;
-    transition: 0.8s;
+    transition: 0.4s;
     border:2px solid var(--gris);
 }
 
 .icone_filtre:hover img{
     background-color: white;
-    transition: 0.8s;
+    transition: 0.4s;
     border:2px solid var(--gris);
 }
 
@@ -172,7 +172,11 @@ form{
     border:5px solid transparent;
     border-radius: 20px;
     box-shadow: 4px 4px 4px rgb(226, 226, 226);
+}
 
+.hotel:hover{
+    transform: scale(1.07);
+    transition: 0.5s;
 }
 
 
@@ -233,6 +237,11 @@ form{
     box-shadow: 4px 4px 4px rgb(226, 226, 226);
 }
 
+.hotelpop:hover{
+    transform: scale(1.08);
+    transition: 0.5s;
+}
+
 .hotelpop img{
     position: absolute;
 }
@@ -276,6 +285,12 @@ form{
 #activite .flex div{
     box-shadow: 1px 1px 17px -9px rgb(0 0 0 / 75%); 
 }
+
+#activite .flex div:hover{
+    transform: scale(1.08);
+    transition: 0.5s;
+}
+
 
 /*Footer*/
 
