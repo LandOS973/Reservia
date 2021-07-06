@@ -108,9 +108,17 @@ form{
     border-bottom-right-radius: 30px;
 }
 
-.icone_filtre h3:hover{
+
+.icone_filtre:hover h3{
     background-color: #DEEBFF;
     transition: 0.8s;
+    border:2px solid var(--gris);
+}
+
+.icone_filtre:hover img{
+    background-color: white;
+    transition: 0.8s;
+    border:2px solid var(--gris);
 }
 
 .icone_filtre img{
@@ -124,7 +132,6 @@ form{
     background-color: #ecf2fc;
     border-radius: 50%;
 }
-
 
 /* plus de 500 logements dispo... */
 
