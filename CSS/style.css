@@ -110,6 +110,7 @@ form{
 
 .icone_filtre h3:hover{
     background-color: #DEEBFF;
+    transition: 0.8s;
 }
 
 .icone_filtre img{
@@ -161,7 +162,7 @@ form{
     overflow: hidden;
     background-color: white;
     position: relative;
-    border:5px solid white;
+    border:5px solid transparent;
     border-radius: 20px;
     box-shadow: 4px 4px 4px rgb(226, 226, 226);
 }
